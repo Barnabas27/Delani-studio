@@ -35,3 +35,21 @@
     height:50%;
 
 }
+.toggles {
+    display: flex;
+    justify-content: space-between;
+}
+.toggle p {
+    display:none;
+}
+.toggle1 p {
+    display:none;
+}
+.toggle2 p {
+    display:none;
+}
+.what h4 {
+    font-weight: bold;
+    text-align: center;
+}
+.service_icons

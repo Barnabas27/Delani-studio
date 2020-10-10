@@ -36,20 +36,24 @@
 
 }
 .toggles {
-    display: flex;
-    justify-content: space-between;
+    
+    justify-content: space-evenly;
+    margin-top: 50px;
+    
 }
-.toggle p {
+.par1 {
     display:none;
 }
-.toggle1 p {
+.par2 {
     display:none;
 }
-.toggle2 p {
+.par3 {
     display:none;
 }
 .what h4 {
     font-weight: bold;
     text-align: center;
 }
-.service_icons
+.service_icons {
+    margin-top: 30px;
+}

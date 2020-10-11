@@ -60,3 +60,18 @@
 p {
     text-align: center;
 }
+.blank {
+    margin-top:-60%;
+    background-color:white;
+    display: none;
+    opacity: 0.5;
+    background-size: 100% 100%;
+    padding:auto;
+
+    
+}
+.text-content {
+    position:absolute;
+    left:20px;
+    right:20px;
+}

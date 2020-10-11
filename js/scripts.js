@@ -16,3 +16,11 @@ $(document).ready(function() {
         $(".par3").toggle();
     });
 });
+$(document).ready(function() {
+    $("#blan").mouseover(function() {
+        $("#blank").show();
+    })
+    .mouseout(function(){
+        $("#blank").hide();
+    });
+});

@@ -87,5 +87,13 @@ p {
 #exampleFormControlTextarea1, #name,
 #email {
     background-color: transparent;
+    
+}
+.social-icons{
+   margin-top: 15px;
+   display:flex;
+   text-align: center;
+   align-items: center;
+   justify-content: space-evenly;
 }
 

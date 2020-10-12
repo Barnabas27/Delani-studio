@@ -80,3 +80,11 @@ $(document).ready(function() {
         $("#Acting").hide()
     });
 });
+function ting () {
+    var name = document.getElementById("mce-FNAME").value;
+    var email = document.getElementById("mce-EMAIL").value;
+    if (name && email) {
+        alert ("Thank you " + name + " for subcribing!!");
+    }else { alert ("Your name and email required!");
+}
+};

@@ -81,3 +81,11 @@ p {
     background-size: cover;
 
 }
+#exampleFormControlTextarea1{
+    margin-left: 50%;
+}
+#exampleFormControlTextarea1, #name,
+#email {
+    background-color: transparent;
+}
+

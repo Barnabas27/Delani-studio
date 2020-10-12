@@ -206,18 +206,24 @@
       <div class="form">
         <h3 style="text-align:center; color:white;">CONTACT US</h3>
         <form>
-          <div class="form-row">
+          <div class="row">
             <div class="col">
-              <input type="text" class="form-control" placeholder="Name">
+              <div class="form-group">
+              <input type="text" class="form-control" placeholder="Name" id = "name">
             </div>
+          </div>
             <div class="col">
-              <input type="email" class="form-control" placeholder="Email...">
+              <div class="form-group">
+              <input type="email" class="form-control" placeholder="Email..."id = "email">
             </div>
+          </div>
           </div>
           <div class="form-group">
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"
+            <div class="col-md-6">
+            <textarea class="form-control rounded-0" id="exampleFormControlTextarea1" rows="5"
               placeholder="Your message here..."></textarea>
           </div>
+        </div>
 
           <button type="submit" class="btn btn-primary">Submit</button>
       </div>

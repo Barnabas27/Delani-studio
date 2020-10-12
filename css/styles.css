@@ -87,14 +87,16 @@ p {
 form {
     margin-top: 8%;
 }
-#exampleFormControlTextarea1{
-    margin-left: 50%;
-}
-#exampleFormControlTextarea1, #name,
-#email {
+/* Styling of mailchimp */
+#mce-EMAIL, #mce-FNAME, #mce-MMERGE3 {
     background-color: transparent;
-    
 }
+#mce-FNAME {
+    margin-top: 3%;
+}
+
+    
+
 .social-icons{
    margin-top: 15px;
    display:flex;

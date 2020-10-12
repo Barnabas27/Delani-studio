@@ -1,3 +1,8 @@
+@font-face{
+    src: url(/SansitaSwashed-VariableFont_wght.ttf);
+    font-family:washed;
+}
+
 .home {
     background-image: url("../images/assets/backgrounds/h_img.jpg");
     height: 100vh;
@@ -36,7 +41,7 @@
 
 }
 .toggles {
-    
+   
     justify-content: space-evenly;
     margin-top: 50px;
     
@@ -69,11 +74,9 @@ p {
     opacity:0.5;
     padding:130px 50px;
     font-weight: bold;
+    font-family:washed;
    
 }
-
-
-    
 
 .form{
     background-image: url("../images/assets/backgrounds/c_image.jpg");
@@ -81,3 +84,24 @@ p {
     background-size: cover;
 
 }
+form {
+    margin-top: 8%;
+}
+/* Styling of mailchimp */
+#mce-EMAIL, #mce-FNAME, #mce-MMERGE3 {
+    background-color: transparent;
+}
+#mce-FNAME {
+    margin-top: 3%;
+}
+
+    
+
+.social-icons{
+   margin-top: 15px;
+   display:flex;
+   text-align: center;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
